@@ -7,10 +7,12 @@
         <title>Hello from Sénégal</title>
     </head>
     <body class="antialiased">
+        <center>
         <h1>Hello from Sénégal!</h1>
         <p> Il est exactement: {{ date('H:m')}} AM </p>
         <footer>
-            Copyright &copy; Mbengue Décembre/2020 <a href="#">A propos de nous </a>
+            Copyright &copy;Décembre/2020 <a href="/about-us">A propos de nous </a>
         </footer>
+        </center>
     </body>
 </html>
