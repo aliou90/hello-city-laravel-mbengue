@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        @yield('title',env('APP_NAME') ) 
+        @yield('title',config('project.name') ) 
     </title>
 </head>
 <body>
     
     <div>
-        @yield('content') 
-        {{config('app.name')}}
+        @yield('content')
+        {{ config('project.name')}}
+        {{ config('project.about')}}
     </div>
     
 
