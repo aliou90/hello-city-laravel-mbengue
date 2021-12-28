@@ -12,6 +12,7 @@
     
     <div>
         @yield('content') 
+        {{config('app.name')}}
     </div>
     
 
