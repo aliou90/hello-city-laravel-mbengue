@@ -1,6 +1,6 @@
 @extends('pages.app')
 
-@section('title', config('project.about'))
+@section('title','About_us: '.config('project.about'))
 
 @section('content') 
     <header>
