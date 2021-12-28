@@ -1,6 +1,6 @@
 @extends('pages.app')
 
-@section('title','About-us: Hello city')
+@section('title')
 
 @section('content') 
     <header>
