@@ -19,7 +19,12 @@
 
     <center>
     <footer>
-        <p> &copy; Copyright {{ date('M:Y')}} || <a href=" {{ route('home')}} ">Accueil</a> || <a href="{{ route('about')}}">A propos de nous </a></p>
+        <p>
+        <span>
+            &copy; Copyright {{ date('M:Y')}}
+        </span>
+        @yield('foot_span')
+        </p>
     </footer>
     </center>
 </body>

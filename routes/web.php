@@ -19,9 +19,9 @@ Route::get('/', function () {   // '' == '/'
 });
 */
 
-Route::get('/', function() {  //chemin 
+Route::name('home')->get('/', function() {  // Nom Propre et chemin
     return view('pages.home');  //Retourne une vue (page)
-})->name('home');//Renommer la route
+});
 
 Route::get('/about-us', function(){
     return view('pages.about');
