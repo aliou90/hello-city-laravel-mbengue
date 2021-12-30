@@ -19,7 +19,7 @@
 
     <center>
     <footer>
-        <p> Copyright &copy;Décembre/2020 <a href="/about-us">A propos de nous </a></p>
+        <p> &copy; Copyright {{ date('M:Y')}} || <a href=" {{ route('home')}} ">Accueil</a> || <a href="{{ route('about')}}">A propos de nous </a></p>
     </footer>
     </center>
 </body>

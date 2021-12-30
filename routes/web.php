@@ -19,10 +19,10 @@ Route::get('/', function () {   // '' == '/'
 });
 */
 
-Route::get('/', function() {
+Route::get('/', function() {  //chemin 
     return view('pages.home');  //Retourne une vue (page)
-});
+})->name('home');//Renommer la route
 
 Route::get('/about-us', function(){
     return view('pages.about');
-});
+})->name('about'); //Renommer la route about-us à about
