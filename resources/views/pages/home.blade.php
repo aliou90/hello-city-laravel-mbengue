@@ -2,10 +2,13 @@
 @section('title','Home: '.  config('project.home'))
     
 @section('content')
-    <header>
-        <h1>Hello from Sénégal!</h1>
-        <p> Il est exactement: {{ date('H:m')}} AM </p>        
-    </header>
+    <center>
+        <header>
+            <h1>Hello from Sénégal!</h1>
+            <img src="/images/tb.jfif" width="200" height="150" alt="Cité Touba">
+            <p> Il est exactement: {{ date('H:m')}} AM </p>        
+        </header>
+    </center>
 
 @stop
 

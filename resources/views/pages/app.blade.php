@@ -12,8 +12,6 @@
     
     <div>
         @yield('content')
-        {{ config('project.name')}}
-        {{ config('project.about')}}
     </div>
     
 

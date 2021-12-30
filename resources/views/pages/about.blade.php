@@ -3,9 +3,12 @@
 @section('title','About_us: '.config('project.about'))
 
 @section('content') 
-    <header>
-        <h1>{{ strtoupper(config('project.about'))}} Production</h1>
-    </header>
+    <center>
+        <header>
+            <h1>{{ strtoupper(config('project.about'))}} Production</h1>
+            <img src="/images/aliou.jpg" width="200" height="150" alt="Cité Touba">
+        </header>
+    </center>
 
 @endsection
 
