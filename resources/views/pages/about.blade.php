@@ -5,8 +5,8 @@
 @section('content') 
     <center>
         <header>
-            <h1>{{ strtoupper(config('project.about'))}} Production</h1>
-            <img src="/images/aliou.jpg" width="200" height="150" alt="Cité Touba">
+            <h1>{{ ucfirst(config('project.about'))}} Production</h1>
+            <img src=" {{ asset('/images/aliou.jpg')}} " width="200" height="150" alt="Cité Touba">
         </header>
     </center>
 
